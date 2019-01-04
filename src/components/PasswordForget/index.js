@@ -50,7 +50,7 @@ class PasswordForgetFormBase extends Component {
                 <input
                     name="email"
                     value={this.state.email}
-                    onChange={this.conChange}
+                    onChange={this.onChange}
                     type="text"
                     placeholder="Email Address"
                 />
